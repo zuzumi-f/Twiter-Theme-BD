@@ -359,6 +359,20 @@ div.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Start Video Call"]>svg>path
     transition: background-color .17s ease,color .17s ease;
 }
 
+/* Buttons */
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    border-radius: 23px;
+    border: 1px solid var(--tw2);
+    background-color: transparent;
+    color: var(--tw2);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background-color: var(--tw2-hover);
+    color: var(--tw2);
+    -webkit-transition: background-color .17s ease,color .17s ease;
+    transition: background-color .17s ease,color .17s ease;
+}
+
 /* Borders */
 .guilds-1SWlCJ {
     border: 1px solid var(--tw3-hover);
@@ -488,11 +502,6 @@ div.children-19S4PO>div.iconWrapper-2OrFZ1>svg {
 }
 
 /* Big Popout */
-.lookFilled-1Gx00P.colorGreen-29iAKY {
-    border: 1px solid var(--tw2) !important;
-    background-color: transparent !important;
-    color: var(--tw2);
-}
 .additionalActionsIcon-365LnQ {
     color: var(--tw2);
     border: 1px solid var(--tw2);
@@ -591,18 +600,6 @@ div.container-1giJp5>div>.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
 }
 
 /* Stage Discovery */
-.lookFilled-1Gx00P.colorGreen-29iAKY {
-    color: var(--tw2);
-    background-color: transparent;
-    border-radius: 23px;
-}
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-    border-radius: 23px;
-    background-color: var(--tw2-hover);
-    color: var(--tw2);
-    -webkit-transition: background-color .17s ease,color .17s ease;
-    transition: background-color .17s ease,color .17s ease;
-}
 .container-1a3EgQ {
     border: 1px solid var(--tw3-hover);
 }
@@ -645,21 +642,17 @@ div#popout_3247.layer-v9HyYc {
 .option-3KoAJB {
     border-bottom: 1px solid var(--tw3-hover);
 }
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
+    background-color: transparent;
+}
 
 /* Search & Create Server Button Style */
-.allow-1PzSY3.selected-2YhbGh,.circleIconButton-1QV--U.selected-1JjBPm,.circleIconButton-1QV--U:hover,.colorable-1bkp8v.green-plH-Mj,.scroller-1Bvpku>.lookFilled-1Gx00P.colorGreen-29iAKY,.tabBar-ZmDY9v .item-3HknzM[style*='background-color: rgb(67, 181, 129)']{
-    background-color:var(--tw2-hover)!important;
+.circleIconButton-1QV--U {
     color: var(--tw2);
-    -webkit-transition: background-color .17s ease,color .17s ease;
-    transition: background-color .17s ease,color .17s ease;
 }
-.circleIconButton-1QV--U:active,.colorable-1bkp8v.green-plH-Mj:hover,.lookFilled-1Gx00P.colorGreen-29iAKY:hover,.tabBar-ZmDY9v .item-3HknzM[style*='background-color: rgb(67, 181, 129)']:hover{
-    background-color:var(--tw2-hover)!important;
-    -webkit-transition: background-color .17s ease,color .17s ease;
-    transition: background-color .17s ease,color .17s ease;
-}
-.circleIconButton-1QV--U{
-    color:var(--tw2);
+.circleIconButton-1QV--U.selected-1JjBPm {
+    color: var(--tw2);
+    background-color: var(--tw2-hover);
 }
 
 /* Servers discover page */
@@ -944,8 +937,27 @@ div#popout_3247.layer-v9HyYc {
     background-color: var(--tw4);
     color: #c5c5c5;
 }
-
-
+.theme-dark .perksModal-fSYqOq {
+    background-color: var(--tw1);
+}
+.theme-dark .tierBody-16Chc9 {
+    background-color: var(--tw5);
+}
+.theme-dark .tierHeaderLocked-1s2JJz {
+    background-color: var(--tw1);
+}
+.tierWrapper-W9ajqp {
+    border: 1px solid var(--tw3-hover);
+}
+.theme-dark .barBackground-2EEiLw, .theme-dark .tierMarkerBackground-3q29am {
+    background-color: var(--tw5);
+}
+.ctaBar-2UsjF2 {
+    border: 1px solid var(--tw3-hover);
+}
+.theme-dark .perk-2WeBWW {
+    background-color: var(--tw5);
+}
 
 /* Buttons & settings page */
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {

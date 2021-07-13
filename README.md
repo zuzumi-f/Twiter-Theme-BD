@@ -1,4 +1,4 @@
-# Twiter-Theme-BD
+# Twiter Dim Mode theme
 
 A theme based in Twitter Dim mode
 

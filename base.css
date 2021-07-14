@@ -26,18 +26,18 @@
 }
 
 .theme-dark, .theme-light {
-    /*--info-positive-background: lightgreen;
-    --info-positive-foreground: springgreen;*/
+    --info-positive-background: lightgreen; /* Not found */
+    --info-positive-foreground: springgreen; /* Not found */
     --info-warning-background: var(--tw5);
     --info-warning-foreground: var(--tw2);
-    /*--info-danger-background: indianred;
-    --info-danger-foreground: red;*/
+    --info-danger-background: indianred; /* Not found */
+    --info-danger-foreground: red; /* Not found */
     --status-positive-background: var(--tw-green);
     --status-positive-text: #fff;
-    /*--status-warning-background: gold;*/
+    --status-warning-background: gold; /* Not found */
     --status-danger-background: var(--tw-red);
     --status-danger-text: #fff;
-    /*--focus-primary: peru;*/
+    --focus-primary: peru; /* Not found */
 }
 
 .theme-dark {
@@ -46,9 +46,9 @@
     --text-normal: #dcddde;
     --text-muted: #8899a6;
     --text-link: var(--tw2);
-    /*--text-link-low-saturation: purple;*/
+    --text-link-low-saturation: purple; /* Not found */
     --text-positive: var(--tw-green);
-    /*--text-warning: rgb(255, 222, 34);*/
+    --text-warning: blue; /* Not found */
     --text-danger: var(--tw-red);
     --interactive-normal: #b9bbbe;
     --interactive-hover: var(--tw2);
@@ -60,97 +60,97 @@
     --background-tertiary: var(--tw1);
     --background-accent: var(--tw2);
     --background-floating: var(--tw1);
-    /*--background-mobile-primary: teal;
-    --background-mobile-secondary: steelblue;*/
+    --background-mobile-primary: teal; /* Not found */
+    --background-mobile-secondary: steelblue; /* Not found */
     --background-modifier-hover: var(--tw3-hover);
     --background-modifier-active: var(--tw2-hover);
     --background-modifier-selected: var(--tw2-hover);
     --background-modifier-accent: var(--tw3);
-    /*--info-positive-text: orangered;*/
+    --info-positive-text: orangered; /* Not found */
     --info-warning-text: var(--header-primary);
-    /*--info-danger-text: springgreen;
-    --info-help-background: plum;
-    --info-help-foreground: powderblue;
-    --info-help-text: darksalmon;
-    --status-warning-text: indianred;*/
+    --info-danger-text: springgreen; /* Not found */
+    --info-help-background: plum; /* Not found */
+    --info-help-foreground: powderblue; /* Not found */
+    --info-help-text: darksalmon; /* Not found */
+    --status-warning-text: indianred; /* Not found */
     --scrollbar-thin-thumb: var(--tw3-hover);
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: var(--tw3);
     --scrollbar-auto-track: var(--tw5);
-    /*--scrollbar-auto-scrollbar-color-thumb: navy;
-    --scrollbar-auto-scrollbar-color-track: darkseagreen;*/
+    --scrollbar-auto-scrollbar-color-thumb: navy; /* Not found */
+    --scrollbar-auto-scrollbar-color-track: darkseagreen; /* Not found */
     --elevation-stroke: 0 0 0 1px var(--tw2-hover);
     --elevation-low: 0 1px 0 var(--tw2-hover),0 1.5px 0 var(--tw2-hover),0 2px 0 var(--tw2-hover);
     --elevation-medium: 0 4px 4px var(--tw2-hover);
     --elevation-high: 0 8px 16px var(--tw2-hover);
     --logo-primary: #fff;
     --control-brand-foreground: var(--tw2);
-    /*--control-brand-foreground-new: cornsilk;*/
+    --control-brand-foreground-new: cornsilk; /* Not found */
     --background-mentioned: var(--tw2-hover);
     --background-mentioned-hover: var(--tw4-hover);
     --background-message-hover: var(--tw1-hover);
     --channels-default: #fff;
     --guild-header-text-shadow: 0 1px 1px var(--tw2-hover);
     --channeltextarea-background: var(--tw5);
-    /*--activity-card-background: yellow;
-    --textbox-markdown-syntax: red;*/
+    --activity-card-background: yellow; /* Not found */
+    --textbox-markdown-syntax: red; /* Not found */
     --deprecated-card-bg: var(--tw5);
     --deprecated-card-editable-bg: var(--tw5);
-    /*--deprecated-store-bg: khaki;*/
+    --deprecated-store-bg: khaki; /* Not found */
     --deprecated-quickswitcher-input-background: var(--tw5);
     --deprecated-quickswitcher-input-placeholder: var(--tw2);
     --deprecated-text-input-bg: var(--tw5);
     --deprecated-text-input-border: var(--tw1-hover);
     --deprecated-text-input-border-hover: var(--tw2);
-    /*--deprecated-text-input-border-disabled: plum;
-    --deprecated-text-input-prefix: blue;*/
+    --deprecated-text-input-border-disabled: plum; /* Not found */
+    --deprecated-text-input-prefix: blue; /* Not found */
 }
 
 html {
     --brand-experiment-100: var(--tw2);
-    /*--brand-experiment-130: yellow;
-    --brand-experiment-160: yellowgreen;*/
+    --brand-experiment-130: yellow; /* Not found */
+    --brand-experiment-160: yellowgreen; /* Not found */
     --brand-experiment-200: var(--tw2);
-    /*--brand-experiment-230: lightblue;
-    --brand-experiment-260: lightcyan;
-    --brand-experiment-300: lightpink;
-    --brand-experiment-330: lightgreen;*/
+    --brand-experiment-230: lightblue; /* Not found */
+    --brand-experiment-260: lightcyan; /* Not found */
+    --brand-experiment-300: lightpink; /* Not found */
+    --brand-experiment-330: lightgreen; /* Not found */
     --brand-experiment-360: var(--tw2);
     --brand-experiment-400: var(--tw2);
-    /*--brand-experiment-430: darkorange;
-    --brand-experiment-460: darkred;*/
+    --brand-experiment-430: darkorange; /* Not found */
+    --brand-experiment-460: darkred; /* Not found */
     --brand-experiment: var(--tw2);
     --brand-experiment-500: var(--tw5-hover);
-    /*--brand-experiment-530: darkviolet;*/
+    --brand-experiment-530: darkviolet; /* Not found */
     --brand-experiment-560: var(--tw2-hover);
     --brand-experiment-600: var(--tw2-hover);
-    /*--brand-experiment-630: indigo;
-    --brand-experiment-660: violet;
-    --brand-experiment-700: hotpink;
-    --brand-experiment-730: orange;
-    --brand-experiment-760: orangered;
-    --brand-experiment-800: tomato;
-    --brand-experiment-830: aqua;
-    --brand-experiment-860: aquamarine;
-    --brand-experiment-900: brown;*/
+    --brand-experiment-630: indigo; /* Not found */
+    --brand-experiment-660: violet; /* Not found */
+    --brand-experiment-700: hotpink; /* Not found */
+    --brand-experiment-730: orange; /* Not found */
+    --brand-experiment-760: orangered; /* Not found */
+    --brand-experiment-800: tomato; /* Not found */
+    --brand-experiment-830: aqua; /* Not found */
+    --brand-experiment-860: aquamarine; /* Not found */
+    --brand-experiment-900: brown; /* Not found */
     --brand-experiment-05a: var(--tw2-hover);
     --brand-experiment-10a: var(--tw4-hover);
     --brand-experiment-15a: var(--tw2-hover);
-    /*--brand-experiment-20a: gray;
-    --brand-experiment-25a: green;*/
+    /--brand-experiment-20a: gray; /* Not found */
+    --brand-experiment-25a: green; /* Not found */
     --brand-experiment-30a: var(--tw1-hover);
-    /*--brand-experiment-35a: khaki;
-    --brand-experiment-40a: magenta;
-    --brand-experiment-45a: navy;
-    --brand-experiment-50a: purple;
-    --brand-experiment-55a: springgreen;
-    --brand-experiment-60a: steelblue;
-    --brand-experiment-65a: white;
-    --brand-experiment-70a: lime;
-    --brand-experiment-75a: plum;*/
+    --brand-experiment-35a: khaki; /* Not found */
+    --brand-experiment-40a: magenta; /* Not found */
+    --brand-experiment-45a: navy; /* Not found */
+    --brand-experiment-50a: purple; /* Not found */
+    --brand-experiment-55a: springgreen; /* Not found */
+    --brand-experiment-60a: steelblue; /* Not found */
+    --brand-experiment-65a: white; /* Not found */
+    --brand-experiment-70a: lime; /* Not found */
+    --brand-experiment-75a: plum; /* Not found */
     --brand-experiment-80a: var(--tw6-hover);
-    /*--brand-experiment-85a: pink;
-    --brand-experiment-90a: powderblue;*/
+    --brand-experiment-85a: pink; /* Not found */
+    --brand-experiment-90a: powderblue; /* Not found */
     --brand-experiment-95a: var(--tw4-hover);
     --control-brand-foreground: var(--control-brand-foreground-new);
 }

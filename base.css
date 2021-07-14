@@ -1032,11 +1032,11 @@ div.container-3PXSwK {
 }
 
 /* Check marks */
-.container-3auIfb[style*="background-color: hsl(139, "], .container-3auIfb[style*="background-color: hsl(227, "], .container-3auIfb[style*="background-color: hsl(235, "] {
+.container-3auIfb[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
     background-color: var(--tw2) !important;
 }
-.container-3auIfb[style*="background-color: hsl(139, "] path[fill], .container-3auIfb[style*="background-color: hsl(227, "] path[fill], .container-3auIfb:active path[fill] {
-    fill: var(--tw2) !important;
+.container-3auIfb[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
+    background-color: var(--text-muted) !important;
 }
 
 /* HypeSquad */

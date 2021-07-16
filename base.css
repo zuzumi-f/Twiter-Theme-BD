@@ -48,7 +48,7 @@
     --text-link: var(--tw2);
     --text-link-low-saturation: purple; /* Not found */
     --text-positive: var(--tw-green);
-    --text-warning: blue; /* Not found */
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
     --text-danger: var(--tw-red);
     --interactive-normal: #b9bbbe;
     --interactive-hover: var(--tw2);

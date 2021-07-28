@@ -332,6 +332,29 @@ div.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Start Voice Call"]>svg>path
 div.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Start Video Call"]>svg>path {
     d: path("M 21.53 20.47 l -3.66 -3.66 C 19.195 15.24 20 13.214 20 11 c 0 -4.97 -4.03 -9 -9 -9 s -9 4.03 -9 9 s 4.03 9 9 9 c 2.215 0 4.24 -0.804 5.808 -2.13 l 3.66 3.66 c 0.147 0.146 0.34 0.22 0.53 0.22 s 0.385 -0.073 0.53 -0.22 c 0.295 -0.293 0.295 -0.767 0.002 -1.06 Z M 3.5 11 c 0 -4.135 3.365 -7.5 7.5 -7.5 s 7.5 3.365 7.5 7.5 s -3.365 7.5 -7.5 7.5 s -7.5 -3.365 -7.5 -7.5 Z M 11 10.57 c -0.572 0 -1.21 -0.064 -1.62 -0.53 c -0.342 -0.392 -0.453 -0.998 -0.34 -1.85 c 0.162 -1.193 0.894 -1.904 1.96 -1.904 c 1.066 0 1.8 0.71 1.958 1.902 c 0.115 0.853 0.003 1.46 -0.34 1.85 c -0.407 0.468 -1.046 0.53 -1.618 0.53 Z M 13.59 15 H 8.41 c -0.292 0 -0.552 -0.124 -0.73 -0.348 c -0.186 -0.236 -0.254 -0.56 -0.18 -0.87 c 0.37 -1.563 1.808 -2.474 3.5 -2.474 s 3.13 0.91 3.5 2.474 c 0.074 0.31 0.006 0.634 -0.18 0.87 c -0.18 0.224 -0.438 0.348 -0.73 0.348 Z");
 }
+div.icon-iDUzSK.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Threads"]>svg {
+    top: 0px;
+}
+.count-bFJRJm {
+    position: relative;
+    margin-left: 0px;
+    left: 10px;
+}
+div.icon-iDUzSK.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Threads"]>svg>path:nth-child(1) {
+    d: path("M 19.75 22 H 4.25 C 3.01 22 2 20.99 2 19.75 V 4.25 C 2 3.01 3.01 2 4.25 2 h 15.5 C 20.99 2 22 3.01 22 4.25 v 15.5 c 0 1.24 -1.01 2.25 -2.25 2.25 Z M 4.25 3.5 c -0.414 0 -0.75 0.337 -0.75 0.75 v 15.5 c 0 0.413 0.336 0.75 0.75 0.75 h 15.5 c 0.414 0 0.75 -0.337 0.75 -0.75 V 4.25 c 0 -0.413 -0.336 -0.75 -0.75 -0.75 H 4.25 Z");
+}
+div.icon-iDUzSK.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Threads"]>svg>path:nth-child(2) {
+    d: path("M 17 8.64 H 7 c -0.414 0 -0.75 -0.337 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 10 c 0.414 0 0.75 0.335 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z m 0 4.11 H 7 c -0.414 0 -0.75 -0.336 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 10 c 0.414 0 0.75 0.336 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z m -5 4.11 H 7 c -0.414 0 -0.75 -0.335 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 5 c 0.414 0 0.75 0.337 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z");
+}
+div.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Notification Settings"]>svg>path:nth-child(1) {
+    color: var(--tw2);
+}
+div.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Notification Settings"]>svg>path:nth-child(2), div.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Notification Settings"]>svg>path:nth-child(3) {
+    fill: transparent;
+}
+div.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Notification Settings"]>svg>path:nth-child(4) {
+    d: path("M 21.697 16.468 c -0.02 -0.016 -2.14 -1.64 -2.103 -6.03 c 0.02 -2.532 -0.812 -4.782 -2.347 -6.335 C 15.872 2.71 14.01 1.94 12.005 1.93 h -0.013 c -2.004 0.01 -3.866 0.78 -5.242 2.174 c -1.534 1.553 -2.368 3.802 -2.346 6.334 c 0.037 4.33 -2.02 5.967 -2.102 6.03 c -0.26 0.193 -0.366 0.53 -0.265 0.838 c 0.102 0.308 0.39 0.515 0.712 0.515 h 4.92 c 0.102 2.31 1.997 4.16 4.33 4.16 s 4.226 -1.85 4.327 -4.16 h 4.922 c 0.322 0 0.61 -0.206 0.71 -0.514 c 0.103 -0.307 -0.003 -0.645 -0.263 -0.838 Z M 12 20.478 c -1.505 0 -2.73 -1.177 -2.828 -2.658 h 5.656 c -0.1 1.48 -1.323 2.66 -2.828 2.66 Z M 4.38 16.32 c 0.74 -1.132 1.548 -3.028 1.524 -5.896 c -0.018 -2.16 0.644 -3.982 1.913 -5.267 C 8.91 4.05 10.397 3.437 12 3.43 c 1.603 0.008 3.087 0.62 4.18 1.728 c 1.27 1.285 1.933 3.106 1.915 5.267 c -0.024 2.868 0.785 4.765 1.525 5.896 H 4.38 Z");
+}
 
 /* Hover */
 .clickable-1JJAn8:hover .layout-2DM8Md {
@@ -962,6 +985,50 @@ div.wrapper-2aW0bm>div[aria-label*="Add Reaction"]>svg>path:nth-child(2) {
     border-radius: 12px;
     -webkit-transition: background-color .17s ease,color .17s ease;
     transition: background-color .17s ease,color .17s ease;
+}
+
+/* Threads */
+.theme-dark .header-1VS4tm .tabBar-31Wimb .tab-PQvTH4.active-30vPlA {
+    background-color: transparent;
+}
+div.tab-PQvTH4.active-30vPlA.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt:hover {
+    background-color: var(--tw2-hover);
+}
+.container-2I9Hud:not(:hover) {
+    border-top: 1px solid var(--tw3-hover);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.theme-dark .list-wek7hJ .tabBar-wS4pjJ .tab-17bjMB.active-3JUHqX {
+    background-color: transparent;
+}
+div.tab-17bjMB.active-3JUHqX.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt:hover {
+    background-color: var(--tw2-hover);
+}
+svg.threadIcon-3XJhLD {
+    color: var(--tw2);
+}
+svg.threadIcon-3XJhLD>path:nth-child(1) {
+    d: path("M 19.75 22 H 4.25 C 3.01 22 2 20.99 2 19.75 V 4.25 C 2 3.01 3.01 2 4.25 2 h 15.5 C 20.99 2 22 3.01 22 4.25 v 15.5 c 0 1.24 -1.01 2.25 -2.25 2.25 Z M 4.25 3.5 c -0.414 0 -0.75 0.337 -0.75 0.75 v 15.5 c 0 0.413 0.336 0.75 0.75 0.75 h 15.5 c 0.414 0 0.75 -0.337 0.75 -0.75 V 4.25 c 0 -0.413 -0.336 -0.75 -0.75 -0.75 H 4.25 Z");
+}
+svg.threadIcon-3XJhLD>path:nth-child(2) {
+    d: path("M 17 8.64 H 7 c -0.414 0 -0.75 -0.337 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 10 c 0.414 0 0.75 0.335 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z m 0 4.11 H 7 c -0.414 0 -0.75 -0.336 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 10 c 0.414 0 0.75 0.336 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z m -5 4.11 H 7 c -0.414 0 -0.75 -0.335 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 5 c 0.414 0 0.75 0.337 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z");
+}
+section.container-1r6BKw.themed-ANHk51>div.children-19S4PO>div.iconWrapper-2OrFZ1:not([aria-label*="Text Channel"])>svg>path:nth-child(1) {
+    d: path("M 19.75 22 H 4.25 C 3.01 22 2 20.99 2 19.75 V 4.25 C 2 3.01 3.01 2 4.25 2 h 15.5 C 20.99 2 22 3.01 22 4.25 v 15.5 c 0 1.24 -1.01 2.25 -2.25 2.25 Z M 4.25 3.5 c -0.414 0 -0.75 0.337 -0.75 0.75 v 15.5 c 0 0.413 0.336 0.75 0.75 0.75 h 15.5 c 0.414 0 0.75 -0.337 0.75 -0.75 V 4.25 c 0 -0.413 -0.336 -0.75 -0.75 -0.75 H 4.25 Z");
+}
+section.container-1r6BKw.themed-ANHk51>div.children-19S4PO>div.iconWrapper-2OrFZ1>svg>path:nth-child(2) {
+    d: path("M 17 8.64 H 7 c -0.414 0 -0.75 -0.337 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 10 c 0.414 0 0.75 0.335 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z m 0 4.11 H 7 c -0.414 0 -0.75 -0.336 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 10 c 0.414 0 0.75 0.336 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z m -5 4.11 H 7 c -0.414 0 -0.75 -0.335 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 5 c 0.414 0 0.75 0.337 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z");
+}
+.chat-3bRxxu.threadSidebarOpen-vdkwIh {
+    border-radius: 0;
+}
+.threadSidebar-1o3BTy {
+    margin-left: 0px;
+    border-radius: 0;
+    border-top: 1px solid var(--tw3-hover);
+    border-bottom: 1px solid var(--tw3-hover);
+    border-right: 1px solid var(--tw3-hover);
 }
 
 /* Server permissions */

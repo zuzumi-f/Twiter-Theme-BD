@@ -3,21 +3,22 @@
 
 /* Twitter Colors */
 :root {
-    --tw1: #15202b;
-    --tw2: #1da1f2;
-    --tw3: #38444db0;
-    --tw4: #192734;
-    --tw5: #253341;
-    --tw6: rgb(25, 39, 52);
-    --tw1-hover: rgba(255, 255, 255, 0.03);
-    --tw2-hover: #1da0f225;
-    --tw3-hover: rgb(56, 68, 77);
-    --tw4-hover: #1da0f238;
-    --tw5-hover: #1a91da;
-    --tw6-hover: #1a90da56;
-    --tw7-hover: rgba(255, 255, 255, 0.07);
-    --tw-green: #17bf63;
-    --tw-red: #e0245e;
+    --tw1: hsl(210, 34%, 13%);
+    --tw2: hsl(203, 89%, 53%);
+    --tw3: hsla(206, 16%, 26%, 0.69);
+    --tw4: hsl(209, 35%, 15%);
+    --tw5: hsl(210, 27%, 20%);
+    --tw6: hsl(209, 35%, 15%);
+    --tw1-hover: hsla(0, 0%, 100%, 0.031);
+    --tw2-hover: hsla(203, 89%, 53%, 0.145);
+    --tw3-hover: hsl(206, 16%, 26%);
+    --tw4-hover: hsla(203, 89%, 53%, 0.22);
+    --tw5-hover: hsl(203, 79%, 48%);
+    --tw6-hover: hsla(203, 79%, 48%, 0.337);
+    --tw7-hover: hsla(0, 0%, 100%, 0.07);
+    --tw-red-hover: hsla(341, 75%, 51%, 0.145);
+    --tw-green: hsl(147, 79%, 42%);
+    --tw-red: hsl(341, 75%, 51%);
 }
 
 /* Discord Colors */
@@ -518,17 +519,12 @@ div.children-19S4PO>div.iconWrapper-2OrFZ1>svg {
 #app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-online-mobile)"] {fill: var(--tw-green)}
 #app-mount .wrapper-3t9DeA rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
 #app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-dnd)"] {fill: var(--tw-red)}
-#app-mount .wrapper-3t9DeA rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
-#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-offline)"] {fill: var(--text-muted)}
 
 .container-1r6BKw [fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
   fill: var(--tw-green);
 }
 .container-1r6BKw [fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
   fill: var(--tw-red);
-}
-.container-1r6BKw [fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
-  fill: var(--text-muted);
 }
 
 /* Big Popout */
@@ -562,6 +558,14 @@ div.children-19S4PO>div.iconWrapper-2OrFZ1>svg {
 }
 .body-r6_QPy {
   height: auto;
+}
+
+/* Remove & Block Friend */
+.colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS {
+    color: var(--tw-red) !important;
+}
+.colorDanger-2qLCe1.colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: var(--tw-red-hover) !important;
 }
 
 /* Account Settings */
@@ -1076,6 +1080,13 @@ section.container-1r6BKw.themed-ANHk51>div.children-19S4PO>div.iconWrapper-2OrFZ
     background-color: var(--tw5);
 }
 
+.theme-dark .gemIndicatorContainer-2jdECl {
+    background-color: var(--tw4);
+}
+.cardWrapper-2Min21 {
+    border: 1px solid var(--tw3-hover);
+}
+
 /* Buttons & settings page */
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
     background-color: var(--tw5-hover);
@@ -1087,6 +1098,27 @@ section.container-1r6BKw.themed-ANHk51>div.children-19S4PO>div.iconWrapper-2OrFZ
 }
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     background-color: transparent;
+}
+
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: var(--tw-red) !important;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: hsla(341, 75%, 51%, .8) !important;
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    color: var(--tw-red) !important;
+    border-color: var(--tw-red) !important;
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover {
+    background-color: var(--tw-red-hover);
+}
+
+.side-8zPYf6 .item-PXvHYJ[aria-controls="DELETE-tab"], .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"] {
+    color: var(--tw-red) !important;
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="DELETE-tab"]:hover, .side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]:hover {
+    background-color: var(--tw-red-hover) !important;
 }
 
 /* Payment methods */

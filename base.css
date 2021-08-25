@@ -455,12 +455,12 @@ div.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Notification Settings"]>svg
 }
 
 /* Add Friend Button Style */
-.item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab]{
+.item-3HknzM.item-PXvHYJ[aria-controls=add_friend-tab]{
     background-color: var(--tw2) !important;
     color: var(--header-primary) !important;
     border-radius: 23px !important;
 }
-.item-3HknzM.item-PXvHYJ[aria-controls=ADD_FRIEND-tab]:hover{
+.item-3HknzM.item-PXvHYJ[aria-controls=add_friend-tab]:hover{
     background-color: var(--tw5-hover) !important;
     -webkit-transition: background-color .17s ease,color .17s ease;
     transition: background-color .17s ease,color .17s ease;

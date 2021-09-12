@@ -121,52 +121,56 @@
 }
 
 html {
-    --brand-experiment-100: var(--tw2);
-    --brand-experiment-130: yellow; /* Not found */
-    --brand-experiment-160: yellowgreen; /* Not found */
-    --brand-experiment-200: var(--tw2);
-    --brand-experiment-230: lightblue; /* Not found */
-    --brand-experiment-260: lightcyan; /* Not found */
-    --brand-experiment-300: lightpink; /* Not found */
-    --brand-experiment-330: lightgreen; /* Not found */
-    --brand-experiment-360: var(--tw2);
-    --brand-experiment-400: var(--tw2);
-    --brand-experiment-430: darkorange; /* Not found */
-    --brand-experiment-460: darkred; /* Not found */
-    --brand-experiment: var(--tw2);
-    --brand-experiment-500: var(--tw5-hover);
-    --brand-experiment-530: darkviolet; /* Not found */
-    --brand-experiment-560: var(--tw2-hover);
-    --brand-experiment-600: var(--tw2-hover);
-    --brand-experiment-630: indigo; /* Not found */
-    --brand-experiment-660: violet; /* Not found */
-    --brand-experiment-700: hotpink; /* Not found */
-    --brand-experiment-730: orange; /* Not found */
-    --brand-experiment-760: orangered; /* Not found */
-    --brand-experiment-800: tomato; /* Not found */
-    --brand-experiment-830: aqua; /* Not found */
-    --brand-experiment-860: aquamarine; /* Not found */
-    --brand-experiment-900: brown; /* Not found */
-    --brand-experiment-05a: var(--tw2-hover);
-    --brand-experiment-10a: var(--tw4-hover);
-    --brand-experiment-15a: var(--tw2-hover);
-    --brand-experiment-20a: gray; /* Not found */
-    --brand-experiment-25a: green; /* Not found */
-    --brand-experiment-30a: var(--tw1-hover);
-    --brand-experiment-35a: khaki; /* Not found */
-    --brand-experiment-40a: magenta; /* Not found */
-    --brand-experiment-45a: navy; /* Not found */
-    --brand-experiment-50a: purple; /* Not found */
-    --brand-experiment-55a: springgreen; /* Not found */
-    --brand-experiment-60a: steelblue; /* Not found */
-    --brand-experiment-65a: white; /* Not found */
-    --brand-experiment-70a: lime; /* Not found */
-    --brand-experiment-75a: plum; /* Not found */
-    --brand-experiment-80a: var(--tw6-hover);
-    --brand-experiment-85a: pink; /* Not found */
-    --brand-experiment-90a: powderblue; /* Not found */
-    --brand-experiment-95a: var(--tw4-hover);
     --control-brand-foreground: var(--control-brand-foreground-new);
+}
+
+/* Blues */
+[data-popout-root], html {
+    --brand-experiment-100: hsl(208, 77.8%, 98.2%);
+    --brand-experiment-130: hsl(204, 87.5%, 96.9%);
+    --brand-experiment-160: hsl(203, 84.6%, 94.9%);
+    --brand-experiment-200: hsl(204, 83.3%, 92.9%);
+    --brand-experiment-230: hsl(204, 87%, 91%);
+    --brand-experiment-260: hsl(203, 86.2%, 88.6%);
+    --brand-experiment-300: hsl(203, 86.1%, 85.9%);
+    --brand-experiment-330: hsl(203, 85.1%, 81.6%);
+    --brand-experiment-360: hsl(203, 86.1%, 77.5%);
+    --brand-experiment-400: hsl(203, 86.1%, 71.8%);
+    --brand-experiment-430: hsl(203, 85.7%, 69.8%);
+    --brand-experiment-460: hsl(203, 85.5%, 67.5%);
+    --brand-experiment: hsl(203, 86%, 65%);
+    --brand-experiment-500: hsl(203, 85.6%, 64.7%);
+    --brand-experiment-530: hsl(203, 66.7%, 58.8%);
+    --brand-experiment-560: hsl(203, 51.4%, 52.4%);
+    --brand-experiment-600: hsl(203, 46.7%, 44.1%);
+    --brand-experiment-630: hsl(203, 46.7%, 38.2%);
+    --brand-experiment-660: hsl(203, 47.1%, 33.3%);
+    --brand-experiment-700: hsl(203, 47%, 25.9%);
+    --brand-experiment-730: hsl(203, 46.8%, 24.3%);
+    --brand-experiment-760: hsl(202, 46.9%, 22.2%);
+    --brand-experiment-800: hsl(203, 47.5%, 19.4%);
+    --brand-experiment-830: hsl(203, 47.4%, 14.9%);
+    --brand-experiment-860: hsl(203, 46.9%, 9.6%);
+    --brand-experiment-900: hsl(201, 50%, 3.1%);
+    --brand-experiment-05a: hsla(203, 85.6%, 64.7%, 0.05);
+    --brand-experiment-10a: hsla(203, 85.6%, 64.7%, 0.1);
+    --brand-experiment-15a: hsla(203, 85.6%, 64.7%, 0.15);
+    --brand-experiment-20a: hsla(203, 85.6%, 64.7%, 0.2);
+    --brand-experiment-25a: hsla(203, 85.6%, 64.7%, 0.25);
+    --brand-experiment-30a: hsla(203, 85.6%, 64.7%, 0.3);
+    --brand-experiment-35a: hsla(203, 85.6%, 64.7%, 0.35);
+    --brand-experiment-40a: hsla(203, 85.6%, 64.7%, 0.4);
+    --brand-experiment-45a: hsla(203, 85.6%, 64.7%, 0.45);
+    --brand-experiment-50a: hsla(203, 85.6%, 64.7%, 0.5);
+    --brand-experiment-55a: hsla(203, 85.6%, 64.7%, 0.55);
+    --brand-experiment-60a: hsla(203, 85.6%, 64.7%, 0.6);
+    --brand-experiment-65a: hsla(203, 85.6%, 64.7%, 0.65);
+    --brand-experiment-70a: hsla(203, 85.6%, 64.7%, 0.7);
+    --brand-experiment-75a: hsla(203, 85.6%, 64.7%, 0.75);
+    --brand-experiment-80a: hsla(203, 85.6%, 64.7%, 0.8);
+    --brand-experiment-85a: hsla(203, 85.6%, 64.7%, 0.85);
+    --brand-experiment-90a: hsla(203, 85.6%, 64.7%, 0.9);
+    --brand-experiment-95a: hsla(203, 85.6%, 64.7%, 0.95);
 }
 
 /* Discord Watermark */

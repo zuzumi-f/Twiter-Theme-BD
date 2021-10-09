@@ -695,11 +695,10 @@ div#popout_3247.layer-v9HyYc {
 }
 
 /* Search & Create Server Button Style */
-.circleIconButton-1QV--U {
-    color: var(--tw2);
+.circleIconButton-1XqULR {
+    color: var(--tw2) !important;
 }
-.circleIconButton-1QV--U.selected-1JjBPm {
-    color: var(--tw2);
+.circleIconButton-1XqULR.selected-2jcQaY {
     background-color: var(--tw2-hover);
 }
 

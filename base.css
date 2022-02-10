@@ -1200,6 +1200,10 @@ div.container-3NTP7o {
     border-color: var(--tw3-hover);
 }
 
+.bd-addon-list .bd-addon-card {
+    border: 1px solid var(--tw3);
+}
+
 /* Check marks */
 .container-2nx-BQ[style*="opacity: 1; background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
     background-color: var(--tw2) !important;

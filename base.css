@@ -80,10 +80,6 @@
     --scrollbar-auto-track: var(--tw5);
     /*--scrollbar-auto-scrollbar-color-thumb: navy;
     --scrollbar-auto-scrollbar-color-track: darkseagreen;*/
-    --elevation-stroke: 0 0 0 1px var(--tw3);
-    --elevation-low: 0 1px 0 var(--tw3),0 1.5px 0 var(--tw3),0 2px 0 var(--tw3);
-    --elevation-medium: 0 4px 4px var(--tw3);
-    --elevation-high: 0 8px 16px var(--tw3);
     --logo-primary: #fff;
     --control-brand-foreground: var(--tw2);
     /*--control-brand-foreground-new: cornsilk;*/
@@ -91,7 +87,6 @@
     --background-mentioned-hover: var(--tw4-hover);
     --background-message-hover: var(--tw1-hover);
     --channels-default: #fff;
-    --guild-header-text-shadow: 0 1px 1px var(--tw3);
     --channeltextarea-background: var(--tw5);
     /*--activity-card-background: yellow;
     --textbox-markdown-syntax: red;*/
@@ -338,15 +333,6 @@ div.icon-1ELUnB.iconWrapper-2awDjA.clickable-ZD7xvu>svg {
 }
 .iconWrapper-2awDjA path[d="M13.4399 12.96C12.9097 12.96 12.4799 13.3898 12.4799 13.92V20.2213C12.4799 20.7515 12.9097 21.1813 13.4399 21.1813H14.3999C14.5325 21.1813 14.6399 21.2887 14.6399 21.4213V23.4597C14.6399 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6622 21.2695 17.8916 21.1813 18.1294 21.1813H22.5599C23.0901 21.1813 23.5199 20.7515 23.5199 20.2213V13.92C23.5199 13.3898 23.0901 12.96 22.5599 12.96H13.4399Z"] {
     d: path("M 17 8.64 H 7 c -0.414 0 -0.75 -0.337 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 10 c 0.414 0 0.75 0.335 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z m 0 4.11 H 7 c -0.414 0 -0.75 -0.336 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 10 c 0.414 0 0.75 0.336 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z m -5 4.11 H 7 c -0.414 0 -0.75 -0.335 -0.75 -0.75 s 0.336 -0.75 0.75 -0.75 h 5 c 0.414 0 0.75 0.337 0.75 0.75 s -0.336 0.75 -0.75 0.75 Z");
-}
-div.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Notification Settings"]>svg>path:nth-child(1) {
-    color: var(--tw2);
-}
-div.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Notification Settings"]>svg>path:nth-child(2), div.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Notification Settings"]>svg>path:nth-child(3) {
-    fill: transparent;
-}
-div.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label*="Notification Settings"]>svg>path:nth-child(4) {
-    d: path("M 21.697 16.468 c -0.02 -0.016 -2.14 -1.64 -2.103 -6.03 c 0.02 -2.532 -0.812 -4.782 -2.347 -6.335 C 15.872 2.71 14.01 1.94 12.005 1.93 h -0.013 c -2.004 0.01 -3.866 0.78 -5.242 2.174 c -1.534 1.553 -2.368 3.802 -2.346 6.334 c 0.037 4.33 -2.02 5.967 -2.102 6.03 c -0.26 0.193 -0.366 0.53 -0.265 0.838 c 0.102 0.308 0.39 0.515 0.712 0.515 h 4.92 c 0.102 2.31 1.997 4.16 4.33 4.16 s 4.226 -1.85 4.327 -4.16 h 4.922 c 0.322 0 0.61 -0.206 0.71 -0.514 c 0.103 -0.307 -0.003 -0.645 -0.263 -0.838 Z M 12 20.478 c -1.505 0 -2.73 -1.177 -2.828 -2.658 h 5.656 c -0.1 1.48 -1.323 2.66 -2.828 2.66 Z M 4.38 16.32 c 0.74 -1.132 1.548 -3.028 1.524 -5.896 c -0.018 -2.16 0.644 -3.982 1.913 -5.267 C 8.91 4.05 10.397 3.437 12 3.43 c 1.603 0.008 3.087 0.62 4.18 1.728 c 1.27 1.285 1.933 3.106 1.915 5.267 c -0.024 2.868 0.785 4.765 1.525 5.896 H 4.38 Z");
 }
 
 /* Hover */
@@ -685,10 +671,10 @@ div#popout_3247.layer-2aCOJ3 {
 }
 
 /* Search & Create Server Button Style */
-.circleIconButton-3lUBQk {
+.circleIconButton-1VxDrg {
     color: var(--tw2) !important;
 }
-.circleIconButton-3lUBQk.selected-2tb4pB {
+.circleIconButton-1VxDrg.selected-2r1Hvo {
     background-color: var(--tw2-hover);
 }
 
@@ -1235,4 +1221,19 @@ div.container-3NTP7o {
 }
 .tooltipPointer-3L49xb {
     display: none;
+}
+
+/* Correct */
+.tabBody-2dgbAs:before {
+    display: none;
+}
+.searchBar-3TnChZ {
+    box-shadow: none;
+    border-bottom: 1px solid var(--tw3-hover);
+    height: 47px;
+}
+
+.searchBar-2aylmZ {
+    background-color: var(--tw5);
+    border-radius: 24px;
 }
